@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: CircularProBook;
+    src: url(CircularPro-Book.otf);
+}
+@font-face {
+    font-family: CircularProBold;
+    src: url(CircularPro-Bold.otf);
+}
+html, body{
+	padding: 0px;
+	margin: 0px;
+	height:100%;
+}
+body{
+    font-family: CircularProBook;
+	background-color: #1d0f30;
+    display: relative;
+    color: white;
+}
+div.sound-box{
+    position: absolute;
+}
+#sound-icons{
+
+}
+ .sound-icon{
+    z-index: 99999; position: absolute;display: none;
+    width:170px;
+    height: 100px;
+    background-size: 170px;
+}
+
+section#wrapper {
+    width: 100%;
+    position: absolute;
+}
+section#wrapper section{
+    padding-top: 100px;
+    position: relative;
+}
+a#logo{
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+a#humburger{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+}
+div#wellcome{ 
+     position: relative;
+     text-align: center;
+     font-size: 22px;
+}
+section#wrapper h1{
+    font-family: CircularProBold;
+    position: relative;
+    margin-top: 25px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+div#info{
+    font-size: 22px;
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+section#sound{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    overflow: hidden;
+}
+section#sound-content{
+	display: block;
+	position: relative;
+	height:100%;
+	overflow: hidden;
+}
+
+.sound-box{
+	position: absolute;	
+    background-size: 100px;
+}
+
+
